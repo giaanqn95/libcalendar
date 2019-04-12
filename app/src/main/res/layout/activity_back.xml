@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:calendar="http://schemas.android.com/apk/res-auto">
+
+    <com.intelin.vn.myfintech.utils.RecyclerCalendar.DayPickerView
+        android:id="@+id/rvPicker"
+        calendar:drawRoundRect="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.intelin.vn.myfintech.utils.RecyclerCalendar.DayPickerView>
+
+</android.support.constraint.ConstraintLayout>
